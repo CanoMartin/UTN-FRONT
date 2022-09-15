@@ -1,0 +1,73 @@
+/* Normalized */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    padding: 20vh 3% 20vh 3%;
+    background: rgb(190,193,236);
+background: linear-gradient(180deg, rgba(190,193,236,1) 0%, rgba(195,113,193,1) 50%, rgba(236,195,235,1) 95%);
+
+}
+.titleContainer h1{
+
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.formRegister {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5vh;
+}
+.textContainerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+  
+
+} 
+.Error {
+    color: #D97A84
+    ;
+}
+
+.input {
+    padding: 10px 3px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.submit {
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid white;
+
+}
+
+.submit:hover {
+    transition: 0.5s all;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.textContainerForm p a{
+
+    font-weight: bold;
+    color: #161614;
+}
