@@ -1,0 +1,39 @@
+.cajaMaster{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.logoMenu{
+    width: 25px;
+    height: 25px;
+}
+
+.contenedorCajas{
+    display: flex;
+}
+
+.cajaTexto{
+    width: 50%;
+    margin: 1rem;
+    padding:1rem;
+    
+}
+
+
+.cajaImagen{
+    width: 50%;
+    margin: 1rem;
+    padding:1rem;
+}
+
+.cerebroMusical{
+  
+    width: 100%;
+    object-fit: fill;
+}
+
+.footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
